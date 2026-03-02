@@ -25,19 +25,6 @@
 
 	"remoteUser": "vscode",
 
-	// "runArgs": [
-	// 	"--env", "SSH_AUTH_SOCK=/ssh-agent", 
-	// 	"--volume", "${localEnv:SSH_AUTH_SOCK}:/ssh-agent" 
-	// ],
-
-	// "mounts": [
-	// 	"source=\\\\.\\pipe\\openssh-ssh-agent,target=/tmp/ssh-agent.socket,type=bind"
- 	// ],
-
-	// "containerEnv": {
-	// 	"SSH_AUTH_SOCK": "/tmp/ssh-agent.socket"
-	// },
-
 	"features": { 
 		"ghcr.io/devcontainers/features/common-utils:2": { 
 			"installZsh": false, 
@@ -50,10 +37,6 @@
 			"username" : "vscode"
 		}
 	}
-
-	// "remoteEnv": {
-    	// 	"SSH_AUTH_SOCK": "${localEnv:SSH_AUTH_SOCK}"
-  	// }
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

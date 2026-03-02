@@ -1,0 +1,41 @@
+# --- Python 관련 ---
+# 파이썬 실행 시 생성되는 바이트코드 (컴파일 파일)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경 (Virtual Environments) - 용량이 커서 올리면 안 돼!
+venv/
+.venv/
+env/
+bin/
+lib/
+
+# 패키지 빌드 결과물
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- VS Code 관련 ---
+# 프로젝트별 설정 (개인마다 다를 수 있어서 제외하는 게 정석)
+.vscode/
+# 만약 팀 전체가 공유해야 하는 설정(launch.json 등)이 있다면 아래 줄을 주석 처리해
+# !.vscode/settings.json
+
+# --- 기타 ---
+# 운영체제 생성 파일 (맥의 경우)
+.DS_Store
+# 윈도우 썸네일 캐시
+Thumbs.db
+
+# 데이터 분석(pandas 등) 시 생기는 임시 파일
+.ipynb_checkpoints
