@@ -1,0 +1,12 @@
+.git
+.gitignore
+
+*.log
+tmp/
+
+node_modules/
+.venv/
+.env
+
+.DS_Store
+Thumbs.db
